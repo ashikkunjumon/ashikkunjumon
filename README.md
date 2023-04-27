@@ -5,7 +5,6 @@
 <h1>$whoami :eyes:</h1>
 Iam Ashik :blush:. I'm passionate in Hacking and Technologies :man_technologist:
 <br />
-<br />
 https://ashikkunjumon.github.io
 
 <br />
