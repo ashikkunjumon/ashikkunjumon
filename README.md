@@ -7,10 +7,10 @@ Iam Ashik :blush:. I'm passionate in Hacking and Technologies :man_technologist:
 
 <br />
 <br />
-https://ashikkunjumon.github.io/
+https://ashikkunjumon.github.io
 
 <br />
-
+<br />
 <a href="https://twitter.com/ashikkunjumon3">
   <img align="left" alt="ashikkunjumon| Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
 </a>
