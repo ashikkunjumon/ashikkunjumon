@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Ashik Kunjumon — Security Researcher and Bug Bounty Hunter">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#0f1720"/>
+      <stop offset="100%" stop-color="#111d18"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#39d353"/>
+      <stop offset="100%" stop-color="#00b8d4"/>
+    </linearGradient>
+    <pattern id="stripes" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="14" height="14" fill="none"/>
+      <rect width="4" height="14" fill="#39d353" opacity="0.16"/>
+    </pattern>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8b949e" stroke-width="1" opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#grid)"/>
+
+  <rect x="0" y="0" width="300" height="320" fill="url(#stripes)" opacity="0.55"/>
+  <rect x="1040" y="0" width="240" height="320" fill="url(#stripes)" opacity="0.35"/>
+  <rect x="0" y="0" width="1280" height="320" fill="#0d1117" opacity="0.35"/>
+
+  <rect x="0" y="0" width="10" height="320" fill="url(#accent)"/>
+  <rect x="0" y="310" width="1280" height="10" fill="url(#accent)" opacity="0.85"/>
+
+  <text x="72" y="104" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" fill="#39d353" letter-spacing="2">&#8226; root@ashik:~$ whoami</text>
+
+  <text x="70" y="186" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="66" font-weight="bold" fill="#e6edf3" letter-spacing="3">ASHIK KUNJUMON</text>
+
+  <text x="72" y="234" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="25" fill="#7ee2a8" letter-spacing="1">Security Researcher &#183; Bug Bounty Hunter &#183; Pentester</text>
+
+  <rect x="72" y="258" width="196" height="32" rx="16" fill="#39d353" opacity="0.12" stroke="#39d353" stroke-opacity="0.45"/>
+  <text x="90" y="279" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#7ee2a8" letter-spacing="1">Recon Automation</text>
+
+  <rect x="284" y="258" width="188" height="32" rx="16" fill="#00b8d4" opacity="0.12" stroke="#00b8d4" stroke-opacity="0.45"/>
+  <text x="302" y="279" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#7fd6e8" letter-spacing="1">Android Pentesting</text>
+
+  <rect x="488" y="258" width="150" height="32" rx="16" fill="#a371f7" opacity="0.12" stroke="#a371f7" stroke-opacity="0.45"/>
+  <text x="506" y="279" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#c3a6f9" letter-spacing="1">Web AppSec</text>
+
+  <g opacity="0.5">
+    <circle cx="1136" cy="128" r="86" fill="none" stroke="#39d353" stroke-width="2" stroke-opacity="0.5"/>
+    <circle cx="1136" cy="128" r="60" fill="none" stroke="#00b8d4" stroke-width="2" stroke-opacity="0.45"/>
+    <circle cx="1136" cy="128" r="34" fill="none" stroke="#39d353" stroke-width="2" stroke-opacity="0.4"/>
+    <circle cx="1136" cy="128" r="6" fill="#39d353"/>
+    <path d="M1136 26V230 M1034 128H1238" stroke="#39d353" stroke-width="1" stroke-opacity="0.3"/>
+  </g>
+</svg>
