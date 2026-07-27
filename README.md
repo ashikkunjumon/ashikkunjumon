@@ -6,7 +6,7 @@
 <!-- ────────────────────────────  SOCIALS  ───────────────────────────── -->
 <div align="center">
 
-[![Website](https://img.shields.io/badge/Website-39d353?style=for-the-badge&logo=netlify&logoColor=white&labelColor=21262d)](https://ashikkunjumon.netlify.app) [![X](https://img.shields.io/badge/X-1a1e22?style=for-the-badge&logo=x&logoColor=white&labelColor=21262d)](https://twitter.com/ashikkunjumon3) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=21262d)](https://www.linkedin.com/in/ashikkunjumon/) [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=21262d)](https://www.instagram.com/aashique_k_/) [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=21262d)](https://www.facebook.com/aashque.k)
+[![Website](https://img.shields.io/badge/Website-39d353?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=21262d)](https://ashikkunjumon.com) [![X](https://img.shields.io/badge/X-1a1e22?style=for-the-badge&logo=x&logoColor=white&labelColor=21262d)](https://twitter.com/ashikkunjumon3) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=21262d)](https://www.linkedin.com/in/ashikkunjumon/) [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=21262d)](https://www.instagram.com/aashique_k_/) [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=21262d)](https://www.facebook.com/aashque.k)
 
 </div>
 
@@ -25,7 +25,7 @@ what falls out.
 - 🛡️ Focused on **web application security**, **API testing**, and **Android pentesting**
 - 🤖 Interested in **LLM-assisted vulnerability discovery** and offensive automation
 - 📝 Documenting findings at **[cve-reports](https://github.com/ashikkunjumon/cve-reports)**
-- 🌐 More about me → **[ashikkunjumon.netlify.app](https://ashikkunjumon.netlify.app)**
+- 🌐 More about me → **[ashikkunjumon.com](https://ashikkunjumon.com)**
 
 ---
 
