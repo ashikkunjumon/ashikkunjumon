@@ -3,11 +3,19 @@
   <img src="./assets/header.svg" alt="Ashik Kunjumon — Security Researcher · Bug Bounty Hunter · Pentester" width="100%" />
 </div>
 
-<!-- ────────────────────────────  SOCIALS  ───────────────────────────── -->
+<!-- ────────────────────────────  SOCIALS  ─────────────────────────────
+     A table, not a <p>. GitHub's marketing stylesheet (loaded on logged-out
+     page views) sets a bare `img { display: block }`, which stacks inline
+     badges one per line. Table cells lay them out side by side regardless,
+     and GitHub strips author style attributes so display cannot be overridden
+     from here. -->
 <div align="center">
-
-[![Website](https://img.shields.io/badge/Website-39d353?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=21262d)](https://ashikkunjumon.com) [![X](https://img.shields.io/badge/X-1a1e22?style=for-the-badge&logo=x&logoColor=white&labelColor=21262d)](https://twitter.com/ashikkunjumon3) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=21262d)](https://www.linkedin.com/in/ashikkunjumon/) [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=21262d)](https://www.instagram.com/aashique_k_/) [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=21262d)](https://www.facebook.com/aashque.k)
-
+<table><tr>
+<td><a href="https://ashikkunjumon.com"><img src="https://img.shields.io/badge/Website-39d353?style=flat-square&logo=firefoxbrowser&logoColor=white&labelColor=21262d" alt="Website"></a></td>
+<td><a href="https://ashikkunjumon.com/pages/blog.html"><img src="https://img.shields.io/badge/Blog-8957e5?style=flat-square&logo=readme&logoColor=white&labelColor=21262d" alt="Blog"></a></td>
+<td><a href="https://twitter.com/ashikkunjumon3"><img src="https://img.shields.io/badge/X-1a1e22?style=flat-square&logo=x&logoColor=white&labelColor=21262d" alt="X"></a></td>
+<td><a href="https://www.linkedin.com/in/ashikkunjumon/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=21262d" alt="LinkedIn"></a></td>
+</tr></table>
 </div>
 
 ---
@@ -23,9 +31,9 @@ things on purpose. I hunt bugs, automate recon, and tear apart Android apps to s
 what falls out.
 
 - 🛡️ Focused on **web application security**, **API testing**, and **Android pentesting**
+- 🔎 I build **recon tooling** when the manual version gets repetitive enough to annoy me — like **[Dorks Automation](https://ashikkunjumon.github.io/Bug-Bounty-Dorks-Automation/)**
 - 🤖 Interested in **LLM-assisted vulnerability discovery** and offensive automation
-- 📝 Documenting findings at **[cve-reports](https://github.com/ashikkunjumon/cve-reports)**
-- 🌐 More about me → **[ashikkunjumon.com](https://ashikkunjumon.com)**
+- 📝 Writeups at **[ashikkunjumon.com](https://ashikkunjumon.com/pages/blog.html)**
 
 ---
 
