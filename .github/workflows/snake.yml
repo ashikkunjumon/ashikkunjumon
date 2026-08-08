@@ -27,9 +27,16 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      # Both actions are pinned to a commit rather than a tag. A tag is a
+      # movable pointer: whoever controls the repository can repoint v3 at new
+      # code, and this workflow has `contents: write` on a branch served
+      # straight to the profile README. The version each SHA corresponds to is
+      # kept in the trailing comment so the pin stays legible when it is time
+      # to bump it.
+
       # Build the snake animation from this repo owner's contribution graph
       - name: Generate snake SVGs
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b  # v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -38,7 +45,7 @@ jobs:
 
       # Publish to the `output` branch, served from raw.githubusercontent.com
       - name: Push SVGs to the output branch
-        uses: crazy-max/ghaction-github-pages@v5.0.0
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4  # v5.0.0
         with:
           target_branch: output
           build_dir: dist
