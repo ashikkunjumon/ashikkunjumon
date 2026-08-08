@@ -2,8 +2,18 @@ name: Generate Contribution Snake
 
 on:
   schedule:
-    # Runs daily at 00:00 UTC
-    - cron: "0 0 * * *"
+    # Every six hours, not daily. The snake is a snapshot of the contribution
+    # graph at the moment it runs, so a single 00:00 UTC build meant a day's
+    # commits were invisible until the following midnight — work pushed at
+    # 17:00 UTC waited sixteen hours to appear. Four builds a day bounds that
+    # lag to six.
+    #
+    # 07:00 IST, 13:00, 19:00 and 01:00, so the day's work is picked up the
+    # same evening rather than the next morning.
+    #
+    # This repository is public, so its Actions minutes are unmetered — unlike
+    # the private ones, where a second scheduled run is a real cost.
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
     branches:
